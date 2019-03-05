@@ -140,3 +140,17 @@ body{
   height: 300px;
   animation: scale 1s linear infinite;
 }
+
+.zoom{
+  background: none;
+  border: solid transparent;
+}
+
+.zoom img{
+  width: 70px;
+  height: auto;
+}
+
+.zoom:hover{
+  cursor: pointer;
+}
